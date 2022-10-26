@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+:root{
+    --cor0:black;
+    --cor1:white;
+    --cor2:gray;
+    --cor3:rgb(204, 198, 198);
+    --cor4: rgb(11, 11, 19);
+
+}
+header{
+    background-color: var(--cor0);
+   background-image: url(./imagens/img1.jpg);
+   background-repeat: no-repeat;
+   background-position:bottom left ;
+   background-size: cover;   
+   height: 600px;
+    color: var(--cor1);
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 200px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    
+}
+header > p{
+    padding: 10px;
+}
+header > nav{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-bottom: 2px solid rgb(206, 199, 199);
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 600px;
+
+}
+header > nav > a{
+    text-decoration: none;
+    color: var(--cor2);
+    padding: 30px;
+    font-weight: lighter;
+}
+
+header > nav > a#T{
+    color: var(--cor0);
+    size: 10px;
+}
+
+header > nav > a:hover{
+    color: var(--cor0);
+}
+
+main{
+    height: 700px;
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-align: center;
+    
+}
+main > h2{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+main > img{
+    padding: 2px;
+    width: 45px;
+    
+}
+
+section{
+    background-color: var(--cor4);
+    color: var(--cor1);
+    height: 500px;
+
+}
+section > h2{
+    padding-top: 100px;
+    padding-left: 70px;
+    
+
+}
+
+section > p#p1{
+ padding-top: 10px;
+ padding-left: 70px;
+}
+
+section > p#p2{
+    padding-top: 10px;
+padding-left: 70px;
+}
+section > button{
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section > button > a{
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+section > div#a > img{
+width: 250px;
+position: relative;
+left: 580px;
+bottom: 325px;
+
+}
+section > div#b > img{
+width: 250px;
+position: relative;
+left: 580px;
+bottom: 300px;
+}
+
+
+
+aside {
+    height: 200px;
+    background-color: --cor0;
+    color: var(--cor0);
+    text-align: center; padding-top: 100px;
+}
+aside > p{
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+aside > p#p3{
+    color: var(--cor3);
+    padding: 10px;
+}
